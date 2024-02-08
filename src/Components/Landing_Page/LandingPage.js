@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Landing_Page.css";
-import Layout from './components/Landing_Page/Landing_page';
-<Route path="/" element={<Landing_Page/>}/>
 
 const Landing_Page = () => {
   return (
