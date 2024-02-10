@@ -23,7 +23,7 @@ const Landing_Page = () => {
                   <div class="blue1 blob"></div>
               </div>
             <h4>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque at quae ducimus. Suscipit omnis quibusdam non cum rem voluptatem!
+            Welcome to StayHealthy &#45; Your Gateway to Convenient and Compassionate Care. Experience connecting with top-tier healthcare professionals from the comfort of your home. Embrace a new era of accessible healthcare where your well-being is just a click away.
             </h4>
             <a href="#services">
               <button class="button">Get Started</button>
