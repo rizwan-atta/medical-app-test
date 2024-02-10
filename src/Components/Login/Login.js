@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './Login.css'; 
+//Apply css according to your design theme or css that has been given to you in week 2 lab 2
+import "./Login.css";
 import { Link, useNavigate } from 'react-router-dom';
 import { API_URL } from '../../config';
 
@@ -77,8 +78,7 @@ const Login = () => {
                                     placeholder="Enter your password"
                                     aria-describedby="helpId"
                                 />
-                            </div>                           
-                             <div className="btn-group">
+                            </div>                            <div className="btn-group">
                                 <button type="submit" className="btn btn-primary mb-2 mr-1 waves-effect waves-light">Login</button>
                             </div>
                         </form>

@@ -1,4 +1,3 @@
-/** Header - Navbar */
 nav {
     padding: 1.5rem;
     position: fixed;
@@ -46,7 +45,7 @@ nav {
   }
   
   .dropdown-menu li a:hover {
-    color: #2190ff;
+    color: #3685fb;
   }
   .nav__logo {
     font-size: 2rem;
@@ -158,4 +157,3 @@ nav {
     background-color: #3685fb;
     color: white;
   }
-  

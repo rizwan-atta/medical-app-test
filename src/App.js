@@ -11,6 +11,9 @@ import AppointmentForm from './Components/AppointmentForm/AppointmentForm';
 import BookingConsultation from './Components/BookingConsultation';
 import Notification from './Components/Notification/Notification';
 import ReviewFrom from './Components/ReviewForm/ReviewForm';
+import ProfileCard from './Components/ProfileCard/ProfileCard';
+
+import ReportsLayout from './Components/ReportsLayout/ReportsLayout';
 
 function App() {
 
@@ -28,6 +31,10 @@ function App() {
               <Route path='/search/doctors' element={<BookingConsultation />} />  
               <Route path='/Notification' element={<Notification />} />  
               <Route path='/reviews' element={<ReviewFrom />} />
+              <Route path='/profile' element={<ProfileCard />} />
+              <Route path='/reports' element={<ReportsLayout />} />  
+
+              
 
 
               </Routes>

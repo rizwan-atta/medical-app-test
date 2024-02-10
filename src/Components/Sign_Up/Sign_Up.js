@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './Sign_Up.css'; 
+import './Sign_Up.css'; //Apply css according to your design theme
 import { Link, useNavigate } from 'react-router-dom';
 import { API_URL } from '../../config';
 
-const Sign_Up = () => {
+const Sign_up = () => {
+
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
@@ -14,7 +15,8 @@ const Sign_Up = () => {
     const navigate = useNavigate();
 
     const register = async (e) => {
-         e.preventDefault();
+
+        e.preventDefault();
 
         // API Call
 
@@ -55,9 +57,11 @@ const Sign_Up = () => {
         } else {
 
             if (json.errors) {
+
                 for (const error of json.errors) {
                     setShowerr(error.msg);
                 }
+
             } else {
                 setShowerr(json.error);
             }
@@ -114,4 +118,4 @@ const Sign_Up = () => {
     );
 }
 
-export default Sign_Up;
+export default Sign_up;
