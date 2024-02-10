@@ -36,5 +36,3 @@ const Landing_Page = () => {
 };
 
 export default Landing_Page;
-
-
