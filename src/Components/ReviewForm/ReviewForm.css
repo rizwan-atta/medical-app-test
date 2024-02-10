@@ -1,10 +1,11 @@
 .reviews-container {
     margin: 10%;
-    padding: 20px;   
+    padding: 20px;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
    }
    th {
        padding: 10px;
-       background-color: lightgray;
+       background-color: rgba(88, 231, 75, 0.37);
    }
    .report-table {
        width: 80%;
