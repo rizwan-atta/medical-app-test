@@ -9,6 +9,7 @@ import InstantConsultation from './Components/InstantConsultationBooking/Instant
 import FindDoctorSearch from './Components/FindDoctorSearch/FindDoctorSearch';
 import AppointmentForm from './Components/AppointmentForm/AppointmentForm';
 import BookingConsultation from './Components/BookingConsultation';
+import Notification from './Components/Notification/Notification';
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
               <Route path='/finddoctor' element={<FindDoctorSearch />} />
               <Route path='/AppointmentForm' element={<AppointmentForm />} />
               <Route path='/search/doctors' element={<BookingConsultation />} />  
+              <Route path='/Notification' element={<Notification />} />  
+
 
               </Routes>
             
